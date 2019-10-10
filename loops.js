@@ -18,10 +18,12 @@ function whileLoop(n){
 
 
 function doWhileLoop(num){
+  function maybeTrue()
   
 do{
   console.log("I run once regardless")
 }
 while (num ===0)
 
+  return Math.random > 1
   }
